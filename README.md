@@ -11,25 +11,47 @@ Live on :https://dynamic-pricing-sentinel-1032946348770.us-central1.run.app/
 The core engineering workflow uses an isolated contextual chain design pattern. Instead of running isolated prompts, state data propagates through specialized cognitive layers:
 
 [ Inbound Payload Ingested via UI/API ]
+
                    │
+
                    ▼
+
       ┌──────────────────────────┐
+
       │  Competitor Intel Agent  │ ──► Reads SKU data & parses market signals.
+
       └──────────────────────────┘
+
                    │
+
                    ▼
+
       ┌──────────────────────────┐
+
       │    Stock & COGS Agent    │ ──► Consumes Intel context; verifies inventory
+
       └──────────────────────────┘     safety levels and margin floors.
+
                    │
+
                    ▼
+
       ┌──────────────────────────┐
+
       │ Pricing Strategist Agent │ ──► Weighs consumer demand vs. stock risk to
+
       └──────────────────────────┘     declare the definitive optimized target price.
+
                    │
+
                    ▼
+
  [ Streamlit Analytics Dashboard Display ]
 
+generate image architecture for it 
+
+
+  
  ### 🧠 Agent Directory Breakdown
 1. **Competitor Intel Agent (`competitor_intel_agent`):** Functions as your market intelligence analyst. It reads raw inbound text payloads to spot baseline competitive listings and immediate pricing shifts across external retail channels.
 2. **Stock & COGS Agent (`stock_cogs_agent`):** Functions as your secure internal ledger auditor. It cross-references the intelligence analyst's output against actual unit availability metrics and strictly enforces baseline profitability threshold floors.
