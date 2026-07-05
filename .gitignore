@@ -1,0 +1,16 @@
+# Python environment variables and credentials
+.env
+env/
+venv/
+*.env
+
+# Google Cloud specific service accounts / keys
+*.json
+.gcloud/
+
+# Python cache
+__pycache__/
+*.pyc
+
+
+
