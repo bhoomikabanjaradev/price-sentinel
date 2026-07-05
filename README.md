@@ -4,6 +4,8 @@ PriceSentinel is an automated, autonomous e-commerce command center powered by t
 
 By analyzing live market movements, checking cost-of-goods-sold (COGS) restrictions, and calculating inventory risk floors synchronously, PriceSentinel delivers real-time yield optimization directives directly to a responsive Streamlit operational dashboard.
 
+Live on :https://dynamic-pricing-sentinel-1032946348770.us-central1.run.app/
+
 ## Core System Architecture
 
 The core engineering workflow uses an isolated contextual chain design pattern. Instead of running isolated prompts, state data propagates through specialized cognitive layers:
