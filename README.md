@@ -1,3 +1,5 @@
+This project is currently under active development. Some features may not work yet.
+
 # 🦅 PriceSentinel: Multi-Agent Dynamic Pricing Engine
 
 PriceSentinel is an automated, autonomous e-commerce command center powered by the **Google ADK (Agent Development Kit)** and **Gemini 2.5-flash**. This system moves beyond simple single-prompt routing pipelines into a structured, production-ready sequential multi-agent execution loop. 
